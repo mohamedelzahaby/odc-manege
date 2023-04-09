@@ -28,7 +28,7 @@ class Elzahaby extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: splash(),
+      home: Login_screen(),
     );
   }
 }

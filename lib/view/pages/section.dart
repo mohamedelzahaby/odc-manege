@@ -1,7 +1,6 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:orange/view/components/setting/navbar.dart';
 import 'package:orange/view/pages/home.dart';
 import 'package:orange/view/pages/login.dart';
 import 'package:orange/view_model/section_cubit/cubit/sections_cubit.dart';
@@ -51,7 +50,7 @@ class section extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => homepage()),
+                      MaterialPageRoute(builder: (context) => Example()),
                     );
                   },
                   child: Icon(
