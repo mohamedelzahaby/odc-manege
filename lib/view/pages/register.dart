@@ -112,7 +112,8 @@ class register extends StatelessWidget {
                             // hintText: 'full name?',
                             labelText: 'Password',
                             suffixIcon: Icon(Icons.visibility_off,
-                                color: Colors.orange)),
+                                color: Colors.orange)
+                                ),
 
                         // This optional block of code can be used to run
                         // code when the user saves the form.
